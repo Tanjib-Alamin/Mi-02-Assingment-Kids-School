@@ -23,6 +23,14 @@ body{
         font-weight: 400; 
         margin-bottom: 24px;   
 }
+
+.secondary_p{
+    color: rgb(128, 128, 128);
+    font-size: 15.09px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .primary_btn{
     color: rgb(255, 255, 255);
     padding: 15px 45px;
@@ -134,9 +142,91 @@ body{
 
 /* banner section styles end */
 
-
-
 /* -------------header styles end---------- */
+
+
+
+/* -------------main styles start---------- */
+main{
+    background-image: url("assets/bg.png");  
+}
+.standard_curriculum{
+    max-width: 80%;
+    margin: 50px auto;
+    border: 1px solid black;
+    
+
+}
+
+.std_clm_title{
+        color: rgb(0, 0, 0);
+        font-size: 46px;
+        font-weight: 700;
+        text-align: center; 
+        margin-top: 20px;     
+}
+.clm_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 60px;
+}
+.clm_box{
+    text-align: center;
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 18px;
+}
+.clm_img{
+    margin-top: 40px;
+}
+.clm_title{
+    margin-top: 30px;
+    color: rgb(32, 32, 32);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.clm_a{
+   margin-top: 30px;
+    text-decoration: none;
+    font-size: 15.09px;
+    font-weight: 700;
+    color: rgb(100, 200, 255);
+    
+}
+.arrow_section{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom:  40px;
+    column-gap: 10px;
+    
+}
+.arrow_box{
+   
+    background-color:rgb(254, 163, 1);
+    color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+
+.arrow_box .arrow{
+    
+    padding-top: 20px;
+    padding-left: 22px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+
+
+/* -------------main styles end---------- */
+
+
+
 
 /*  responsive for mobile device start */
 
@@ -203,6 +293,21 @@ body{
 
         /* banner responsive end */
     
+
+
+        /* standard curriculum */
+
+       .clm_container{
+        grid-template-columns: repeat(1, 1fr);
+       }
+       .std_clm_title{
+        font-size: 1.5rem;
+        font-weight: bold;
+       }
+
+
+
+        /* standard curriculum */
 }
 
 
