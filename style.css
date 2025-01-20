@@ -15,6 +15,22 @@ body{
     margin:50px auto;
  }
 
+ /* shared styles  start*/
+
+.primary_p{
+        color: rgb(17, 17, 17);
+        font-size: 1.5rem;
+        font-weight: 400; 
+        margin-bottom: 24px;   
+}
+.primary_btn{
+    color: rgb(255, 255, 255);
+    padding: 15px 45px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+}
+ /* shared styles  end*/
+
 /* -------------header styles start---------- */
 
 /* navbar styles  */
@@ -89,6 +105,34 @@ body{
     display: none;
 }
 
+/* banner section styles start */
+.banner_section{
+    
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.banner_title{  
+    font-size: 3.5rem;
+    font-weight: 700;   
+    margin-bottom: 24px; 
+}
+.sp1{
+    color: rgb(254, 163, 1);
+}
+.sp2 {
+    color: rgb(17, 17, 17);
+}
+.sp3 {
+    color:rgb(1, 172, 253);
+}
+.banner_img{
+    max-width: 100%;
+}
+
+/* banner section styles end */
 
 
 
@@ -97,9 +141,12 @@ body{
 /*  responsive for mobile device start */
 
 
-/* navbar responsive start */
+
 
 @media screen and (max-width:576px) {
+
+    /* navbar responsive start */
+
     .nav_title{
         display: none;
     }
@@ -131,10 +178,36 @@ body{
     .nav_container{
         padding: 0 20px;
     }
+
+        /* navbar responsive end */
+
+        /* banner responsive start */
+    .banner_section{
+        flex-direction: column-reverse;
+        padding: 20px;
+        justify-content: center;
+        
+    }
+    .banner_text_container{
+        text-align: center;
+    }
+    .banner_title{
+        font-size: 2rem;
+    }
+    .primary_p{
+        font-size: 0.8rem;
+    }
+    .primary_p br{
+        display: none   ;
+    }
+
+        /* banner responsive end */
     
 }
 
 
-/* navbar responsive end */
+
+
+/* navbar responsive start */
 
 /*  responsive for mobile device end */
