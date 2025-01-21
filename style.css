@@ -153,9 +153,6 @@ main{
 .standard_curriculum{
     max-width: 80%;
     margin: 50px auto;
-    border: 1px solid black;
-    
-
 }
 
 .std_clm_title{
@@ -171,11 +168,24 @@ main{
     gap: 30px;
     margin-top: 60px;
 }
-.clm_box{
+.clm_box{  
     text-align: center;
-    border: 1px solid black;
     padding: 40px;
     border-radius: 18px;
+} 
+.clm_box_1{
+    background: linear-gradient(to top, white 70%, #DEF5FF);
+    box-shadow: 0 0 12px #DEF5FF inset ;
+}
+.clm_box_2{
+    
+    background: linear-gradient(to top, white 70%, #FFF4DC);
+    box-shadow: 0 0 12px #FFF4DC inset;
+}
+.clm_box_3 {
+
+    background: linear-gradient(to top, white 70%, #F2E8FF);
+    box-shadow: 0 0 12px #F2E8FF inset;
 }
 .clm_img{
     margin-top: 40px;
